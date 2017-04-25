@@ -4,7 +4,7 @@ A very simple and minimal router for PHP
 
 ## Install:
 
-    composer install diversen/minimal-router
+    composer require diversen/minimal-router
 
 ## Usage: 
 
