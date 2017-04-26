@@ -1,6 +1,7 @@
 # minmal-router
 
-A very simple and minimal router for PHP
+A very simple and minimal router for PHP. Routing is 
+done with regular expressions.
 
 ## Install:
 
@@ -8,7 +9,11 @@ A very simple and minimal router for PHP
 
 ## Usage: 
 
-See [index.php](index.php)
+See [index.php](index.php) which adds two routes. 
 
-Run the built-in PHP server in minimal-router/
+You can run the built-in PHP server in minimal-router/
+
+See [test.php](test.php) which holds the `actions`
+for the two routes. 
+
 
