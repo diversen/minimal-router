@@ -1,4 +1,4 @@
-# minmal-router
+# minimal-router
 
 A very simple and minimal router for PHP. Routing is 
 done with regular expressions.
