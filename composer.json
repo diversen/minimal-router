@@ -9,5 +9,10 @@
             "email": "dennis.iversen@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "diversen\\": "/"
+        }
+    },
     "require": {}
 }
