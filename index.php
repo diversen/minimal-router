@@ -10,18 +10,17 @@ $r = new \diversen\router();
 
 // Example 'test' route
 $route =  array (
-    'match' => '#/test/[0-9]+#',
-    'class' => '\diversen\test',
+    'match' => '/^[\/]test[\/][0-9]*$/',
+    'class' => 'diversen\test',
     'method' => 'testAction');
 
 $r->setRoute($route);
 
 // Example 'home' route
 $route =  array (
-    'match' => '#^/$#',
+    'match' => '/^\/$/',
     'class' => '\diversen\test',
     'method' => 'homeAction');
-
 
 $r->setRoute($route);
 $r->match();
