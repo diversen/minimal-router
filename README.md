@@ -11,9 +11,10 @@ done with regular expressions.
 
 See [index.php](index.php) which adds two routes. 
 
-You can run the built-in PHP server in minimal-router/
+You can run the built-in PHP server in `minimal-router/`
+which will run the example. 
 
 See [test.php](test.php) which holds the `actions`
-for the two routes. 
+for the two routes.
 
 
