@@ -1,6 +1,6 @@
 <?php
 
-namespace router;
+namespace diversen;
 
 class test {
     

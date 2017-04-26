@@ -87,7 +87,6 @@ class router {
      * @return mixed
      */
     public function call ($call) {
-        
         if (!isset($call['method']) || !isset($call['class'])) {
             $this->error = "Error: Correct match of route but 'method' or 'class' is not set";
             $this->notFound();

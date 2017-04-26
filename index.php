@@ -11,7 +11,7 @@ $r = new \diversen\router();
 // Example 'test' route
 $route =  array (
     'match' => '#/test/[0-9]+#',
-    'class' => '\router\test',
+    'class' => '\diversen\test',
     'method' => 'testAction');
 
 $r->setRoute($route);
@@ -19,7 +19,7 @@ $r->setRoute($route);
 // Example 'home' route
 $route =  array (
     'match' => '#^/$#',
-    'class' => '\router\test',
+    'class' => '\diversen\test',
     'method' => 'homeAction');
 
 
