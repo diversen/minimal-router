@@ -8,14 +8,14 @@ include_once "test.php";
 // using composer
 $r = new \diversen\router();
 
-// Example 'test' route. Match /test/2/123123 (or any int as last part of path)
+// Example 'test' route. Match e.g. /test/123123 (or any int as last part of path)
 $route =  array (
-    'match' => '#^/test/int/[0-9]+$#', 
+    'match' => '#^/test/[0-9]+$#', 
     'class' => 'diversen\test',
     'method' => 'testAction');
 
 $r->setRoute($route);
-// Example 'test' route. Match /test/anything
+// Example 'test' route. Match /test/login/ and then anything
 $route =  array (
     'match' => '#^/test/login/(.*?)+$#', 
     'class' => 'diversen\test',
