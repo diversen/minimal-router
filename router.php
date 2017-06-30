@@ -1,6 +1,6 @@
 <?php
 
-namespace diversen;
+namespace minimal;
 
 /**
  * Very simple router class
